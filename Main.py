@@ -2,13 +2,13 @@ from typing import List
 
 def merge_sort(data) -> None:
   if len(data)>1:
-        mid = len(data)//
+        mid = len(data)//2
         lefthalf = data[:mid]
         righthalf = data[mid:]
 
         merge_sort(lefthalf)
         merge_sort(righthalf)
-        i=j=k=0       
+        i=j=k=
         while i < len(lefthalf) and j < len(righthalf):
             if lefthalf[i] < righthalf[j]:
                 data[k]=lefthalf[i]
