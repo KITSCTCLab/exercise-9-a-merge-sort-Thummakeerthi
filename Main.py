@@ -8,7 +8,7 @@ def merge_sort(data) -> None:
 
         merge_sort(lefthalf)
         merge_sort(righthalf)
-        i=j=k=
+        i=j=k=0
         while i < len(lefthalf) and j < len(righthalf):
             if lefthalf[i] < righthalf[j]:
                 data[k]=lefthalf[i]
