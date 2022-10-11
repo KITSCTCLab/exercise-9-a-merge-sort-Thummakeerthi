@@ -2,7 +2,7 @@ from typing import List
 
 def merge_sort(data) -> None:
   if len(data)>1:
-        mid = len(data)//2
+        mid = len(data)//
         lefthalf = data[:mid]
         righthalf = data[mid:]
 
@@ -31,7 +31,7 @@ def merge_sort(data) -> None:
 
 # Do not change the following code
 input_data = input()
-data = 
+data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
